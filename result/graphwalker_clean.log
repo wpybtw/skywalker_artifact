@@ -1,0 +1,56 @@
+00_runtime:		5.92999 s
+g_loadSubGraph:		0.187437s	 (count: 2, min: 0.011253s, max: 0.176184, avg: 0.0937185s)
+file:	/home/pywang/data/lj.w.edge
+00_runtime:             73.3327 s
+g_loadSubGraph:         2.16317s
+file: /uk-2005
+00_runtime:		103.496 s
+g_loadSubGraph:		4.08989s	 (count: 15, min: 0.134708s, max: 0.331397, avg: 0.272659s)
+file:	/home/pywang/data/sk-2005
+00_runtime:		463.637 s
+g_loadSubGraph:		5.07296s	 (count: 7, min: 0.690684s, max: 0.793938, avg: 0.724708s)
+file:	/home/pywang/data/friendster.w.edge
+00_runtime:		71.992 s
+g_loadSubGraph:		2.34156s	 (count: 7, min: 0.244027s, max: 0.42846, avg: 0.334509s)
+file:	/home/pywang/data/uk-2005.w.edge
+00_runtime:		4.73117 s
+g_loadSubGraph:		0.202233s	 (count: 2, min: 0.005908s, max: 0.196325, avg: 0.101116s)
+file:	/home/pywang/data/lj.w.edge
+00_runtime:		6.19234 s
+g_loadSubGraph:		0.211944s	 (count: 2, min: 0.010785s, max: 0.201159, avg: 0.105972s)
+file:	/home/pywang/data/lj.w.edge
+00_runtime:		6.23363 s
+g_loadSubGraph:		0.218476s	 (count: 2, min: 0.011853s, max: 0.206623, avg: 0.109238s)
+file:	/home/pywang/data/lj.w.edge
+00_runtime:		44.1513 s
+g_loadSubGraph:		1.50938s	 (count: 5, min: 0.196886s, max: 0.350308, avg: 0.301876s)
+file:	/home/pywang/data/arabic-2005.w.edge
+00_runtime:		70.2424 s
+g_loadSubGraph:		2.42527s	 (count: 7, min: 0.283921s, max: 0.384147, avg: 0.346468s)
+file:	/home/pywang/data/uk-2005.w.edge
+00_runtime:		110.165 s
+g_loadSubGraph:		4.5381s	 (count: 15, min: 0.145567s, max: 0.382969, avg: 0.30254s)
+file:	/home/pywang/data/sk-2005
+00_runtime:		478.373 s
+g_loadSubGraph:		29.6944s	 (count: 7, min: 2.25462s, max: 12.5561, avg: 4.24206s)
+file:	/home/pywang/data/friendster.w.edge
+00_runtime:		0.639093 s
+g_loadSubGraph:		0.203845s	 (count: 2, min: 0.006564s, max: 0.197281, avg: 0.101922s)
+file:	/home/pywang/data/lj.w.edge
+
+
+00_runtime:		0.236339 s
+g_loadSubGraph:		0.218629s	 (count: 9, min: 0.006155s, max: 0.029904, avg: 0.0242921s)
+file:	/home/pywang/data/lj.w.edge
+00_runtime:		1.10527 s
+g_loadSubGraph:		1.1003s	 (count: 57, min: 0.017226s, max: 0.022356, avg: 0.0193036s)
+file:	/home/pywang/data/arabic-2005.w.edge
+00_runtime:		1.99981 s
+g_loadSubGraph:		1.98496s	 (count: 96, min: 0.018672s, max: 0.02435, avg: 0.0206767s)
+file:	/home/pywang/data/uk-2005.w.edge
+00_runtime:		1.59222 s
+g_loadSubGraph:		1.58816s	 (count: 87, min: 0.014597s, max: 0.022235, avg: 0.0182547s)
+file:	/home/pywang/data/sk-2005
+00_runtime:		4.53575 s
+g_loadSubGraph:		4.52127s	 (count: 212, min: 0.018153s, max: 0.048566, avg: 0.0213268s)
+file:	/home/pywang/data/friendster.w.edge

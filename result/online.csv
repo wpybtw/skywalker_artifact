@@ -1,0 +1,355 @@
+-------------------------------------------------------online rw 100
+/home/pywang/data/web-Google.w.gr has 916428 nodes and 5105039  edges
+./include/graph.cuh:261 HOST: 506742 has max out degree 456
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 5108155, using 0.2502
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 36
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_walk.cu:187 HOST: OnlineGBWalk
+src/online_walk.cu:212 HOST: alllocate GMEM buffer 2 MB
+src/online_walk.cu:246 HOST: Device 0 sampling time:	1.42 ms ratio:	 88.8 MSEPS
+src/online_walk.cu:248 HOST: sampled_edges 126179
+./include/gpu_graph.cuh:155 HOST: free
+
+1.42	
+88.80	
+/home/pywang/data/lj.w.gr has 4847571 nodes and 68993773  edges
+./include/graph.cuh:261 HOST: 10009 has max out degree 20293
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 74759502, using 0.2709
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 14
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_walk.cu:187 HOST: OnlineGBWalk
+src/online_walk.cu:212 HOST: alllocate GMEM buffer 94 MB
+src/online_walk.cu:246 HOST: Device 0 sampling time:	11.11 ms ratio:	 15.4 MSEPS
+src/online_walk.cu:248 HOST: sampled_edges 171267
+./include/gpu_graph.cuh:155 HOST: free
+
+11.11	
+15.41	
+/home/pywang/data/orkut.w.gr has 3072627 nodes and 117185083  edges
+./include/graph.cuh:261 HOST: 43608 has max out degree 33007
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 144976991, using 0.3093
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 23
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_walk.cu:187 HOST: OnlineGBWalk
+src/online_walk.cu:212 HOST: alllocate GMEM buffer 154 MB
+src/online_walk.cu:246 HOST: Device 0 sampling time:	1.51 ms ratio:	 33.6 MSEPS
+src/online_walk.cu:248 HOST: sampled_edges 50612
+./include/gpu_graph.cuh:155 HOST: free
+
+1.51	
+33.61	
+/home/pywang/data/arabic-2005.w.gr has 22744077 nodes and 639999458  edges
+./include/graph.cuh:261 HOST: 2960953 has max out degree 9905
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 757063734, using 0.2957
+src/main.cu:162 HOST: overriding um for alias table
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 16
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_walk.cu:187 HOST: OnlineGBWalk
+src/online_walk.cu:212 HOST: alllocate GMEM buffer 46 MB
+src/online_walk.cu:246 HOST: Device 0 sampling time:	3.14 ms ratio:	 20.0 MSEPS
+src/online_walk.cu:248 HOST: sampled_edges 62967
+./include/gpu_graph.cuh:155 HOST: free
+
+3.14	
+20.04	
+/home/pywang/data/uk-2005.w.gr has 39459923 nodes and 936364282  edges
+./include/graph.cuh:261 HOST: 21049532 has max out degree 5213
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 994391366, using 0.2655
+src/main.cu:162 HOST: overriding um for alias table
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 31
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_walk.cu:187 HOST: OnlineGBWalk
+src/online_walk.cu:212 HOST: alllocate GMEM buffer 24 MB
+src/online_walk.cu:246 HOST: Device 0 sampling time:	5.21 ms ratio:	 51.3 MSEPS
+src/online_walk.cu:248 HOST: sampled_edges 267569
+./include/gpu_graph.cuh:155 HOST: free
+
+5.21	
+51.33	
+/home/pywang/data/sk-2005.w.gr has 50636151 nodes and 1949412601  edges
+./include/graph.cuh:261 HOST: 19879527 has max out degree 12870
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 2160816208, using 0.2771
+src/main.cu:162 HOST: overriding um for alias table
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 29
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_walk.cu:187 HOST: OnlineGBWalk
+src/online_walk.cu:212 HOST: alllocate GMEM buffer 60 MB
+src/online_walk.cu:246 HOST: Device 0 sampling time:	22.25 ms ratio:	 1.8 MSEPS
+src/online_walk.cu:248 HOST: sampled_edges 39528
+./include/gpu_graph.cuh:155 HOST: free
+
+22.25	
+1.78	
+/home/pywang/data/friendster.w.gr has 124836180 nodes and 1806067135  edges
+./include/graph.cuh:261 HOST: 7688909 has max out degree 3615
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 2449802515, using 0.3391
+src/main.cu:162 HOST: overriding um for alias table
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 31
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_walk.cu:187 HOST: OnlineGBWalk
+src/online_walk.cu:212 HOST: alllocate GMEM buffer 16 MB
+src/online_walk.cu:246 HOST: Device 0 sampling time:	63.09 ms ratio:	 0.5 MSEPS
+src/online_walk.cu:248 HOST: sampled_edges 31640
+./include/gpu_graph.cuh:155 HOST: free
+
+63.09	
+0.50	
+-------------------------------------------------------online sp 100
+/home/pywang/data/web-Google.w.gr has 916428 nodes and 5105039  edges
+./include/graph.cuh:261 HOST: 506742 has max out degree 456
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 5108155, using 0.2502
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 31
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_sample_twc.cu:163 HOST: OnlineGBSampleTWC
+src/online_sample_twc.cu:186 HOST: alllocate GMEM buffer 2 MB
+src/online_sample_twc.cu:215 HOST: Device 0 sampling time:	0.36 ms ratio:	 701.5 MSEPS
+src/online_sample_twc.cu:217 HOST: sampled_edges 254554
+./include/gpu_graph.cuh:155 HOST: free
+
+0.36	
+701.50	
+/home/pywang/data/lj.w.gr has 4847571 nodes and 68993773  edges
+./include/graph.cuh:261 HOST: 10009 has max out degree 20293
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 74759502, using 0.2709
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 15
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_sample_twc.cu:163 HOST: OnlineGBSampleTWC
+src/online_sample_twc.cu:186 HOST: alllocate GMEM buffer 94 MB
+src/online_sample_twc.cu:215 HOST: Device 0 sampling time:	4.37 ms ratio:	 260.1 MSEPS
+src/online_sample_twc.cu:217 HOST: sampled_edges 1136005
+./include/gpu_graph.cuh:155 HOST: free
+
+4.37	
+260.14	
+/home/pywang/data/orkut.w.gr has 3072627 nodes and 117185083  edges
+./include/graph.cuh:261 HOST: 43608 has max out degree 33007
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 144976991, using 0.3093
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 23
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_sample_twc.cu:163 HOST: OnlineGBSampleTWC
+src/online_sample_twc.cu:186 HOST: alllocate GMEM buffer 154 MB
+src/online_sample_twc.cu:215 HOST: Device 0 sampling time:	6.90 ms ratio:	 209.9 MSEPS
+src/online_sample_twc.cu:217 HOST: sampled_edges 1448729
+./include/gpu_graph.cuh:155 HOST: free
+
+6.90	
+209.87	
+/home/pywang/data/arabic-2005.w.gr has 22744077 nodes and 639999458  edges
+./include/graph.cuh:261 HOST: 2960953 has max out degree 9905
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 757063734, using 0.2957
+src/main.cu:162 HOST: overriding um for alias table
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 15
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_sample_twc.cu:163 HOST: OnlineGBSampleTWC
+src/online_sample_twc.cu:186 HOST: alllocate GMEM buffer 46 MB
+src/online_sample_twc.cu:215 HOST: Device 0 sampling time:	3.81 ms ratio:	 350.2 MSEPS
+src/online_sample_twc.cu:217 HOST: sampled_edges 1333855
+./include/gpu_graph.cuh:155 HOST: free
+
+3.81	
+350.19	
+/home/pywang/data/uk-2005.w.gr has 39459923 nodes and 936364282  edges
+./include/graph.cuh:261 HOST: 21049532 has max out degree 5213
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 994391366, using 0.2655
+src/main.cu:162 HOST: overriding um for alias table
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 27
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_sample_twc.cu:163 HOST: OnlineGBSampleTWC
+src/online_sample_twc.cu:186 HOST: alllocate GMEM buffer 24 MB
+src/online_sample_twc.cu:215 HOST: Device 0 sampling time:	0.91 ms ratio:	 775.8 MSEPS
+src/online_sample_twc.cu:217 HOST: sampled_edges 702858
+./include/gpu_graph.cuh:155 HOST: free
+
+0.91	
+775.79	
+/home/pywang/data/sk-2005.w.gr has 50636151 nodes and 1949412601  edges
+./include/graph.cuh:261 HOST: 19879527 has max out degree 12870
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 2160816208, using 0.2771
+src/main.cu:162 HOST: overriding um for alias table
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 29
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_sample_twc.cu:163 HOST: OnlineGBSampleTWC
+src/online_sample_twc.cu:186 HOST: alllocate GMEM buffer 60 MB
+src/online_sample_twc.cu:215 HOST: Device 0 sampling time:	12.30 ms ratio:	 12.2 MSEPS
+src/online_sample_twc.cu:217 HOST: sampled_edges 150384
+./include/gpu_graph.cuh:155 HOST: free
+
+12.30	
+12.23	
+/home/pywang/data/friendster.w.gr has 124836180 nodes and 1806067135  edges
+./include/graph.cuh:261 HOST: 7688909 has max out degree 3615
+./include/graph.cuh:264 HOST: loading weight
+./include/graph.cuh:161 HOST: alias_length 2449802515, using 0.3391
+src/main.cu:162 HOST: overriding um for alias table
+src/main.cu:205 HOST: device_id 0 ompid 0 coreid 37
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/online_sample_twc.cu:163 HOST: OnlineGBSampleTWC
+src/online_sample_twc.cu:186 HOST: alllocate GMEM buffer 16 MB
+src/online_sample_twc.cu:215 HOST: Device 0 sampling time:	68.70 ms ratio:	 2.4 MSEPS
+src/online_sample_twc.cu:217 HOST: sampled_edges 165283
+./include/gpu_graph.cuh:155 HOST: free
+
+68.70	
+2.41	
+-------------------------------------------------------node2vec 
+src/main.cu:150 HOST: SPEC_EXE 
+/home/pywang/data/web-Google.w.gr has 916428 nodes and 5105039  edges
+./include/graph.cuh:261 HOST: 506742 has max out degree 456
+./include/graph.cuh:161 HOST: alias_length 5108155, using 0.2502
+src/main.cu:214 HOST: device_id 0 ompid 0 coreid 4
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_walk.cu:179 HOST: UnbiasedWalk
+src/unbiased_walk.cu:244 HOST: Device 0 sampling time:	0.001095 ratio:	 2960.40 MSEPS sampled 3241800
+./include/gpu_graph.cuh:155 HOST: free
+
+1.10	
+2960.40	
+src/main.cu:150 HOST: SPEC_EXE 
+/home/pywang/data/lj.w.gr has 4847571 nodes and 68993773  edges
+./include/graph.cuh:261 HOST: 10009 has max out degree 20293
+./include/graph.cuh:161 HOST: alias_length 74759502, using 0.2709
+src/main.cu:214 HOST: device_id 0 ompid 0 coreid 3
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_walk.cu:179 HOST: UnbiasedWalk
+src/unbiased_walk.cu:244 HOST: Device 0 sampling time:	0.001960 ratio:	 1978.87 MSEPS sampled 3878200
+./include/gpu_graph.cuh:155 HOST: free
+
+1.96	
+1978.87	
+src/main.cu:150 HOST: SPEC_EXE 
+/home/pywang/data/orkut.w.gr has 3072627 nodes and 117185083  edges
+./include/graph.cuh:261 HOST: 43608 has max out degree 33007
+./include/graph.cuh:161 HOST: alias_length 144976991, using 0.3093
+src/main.cu:214 HOST: device_id 0 ompid 0 coreid 36
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_walk.cu:179 HOST: UnbiasedWalk
+src/unbiased_walk.cu:244 HOST: Device 0 sampling time:	0.000400 ratio:	 9920.77 MSEPS sampled 3966600
+./include/gpu_graph.cuh:155 HOST: free
+
+0.40	
+9920.77	
+src/main.cu:150 HOST: SPEC_EXE 
+/home/pywang/data/arabic-2005.w.gr has 22744077 nodes and 639999458  edges
+./include/graph.cuh:261 HOST: 2960953 has max out degree 9905
+./include/graph.cuh:161 HOST: alias_length 757063734, using 0.2957
+src/main.cu:170 HOST: overriding um for alias table
+src/main.cu:214 HOST: device_id 0 ompid 0 coreid 38
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_walk.cu:179 HOST: UnbiasedWalk
+src/unbiased_walk.cu:244 HOST: Device 0 sampling time:	0.000113 ratio:	 8799.07 MSEPS sampled 994387
+./include/gpu_graph.cuh:155 HOST: free
+
+0.11	
+8799.07	
+src/main.cu:150 HOST: SPEC_EXE 
+/home/pywang/data/uk-2005.w.gr has 39459923 nodes and 936364282  edges
+./include/graph.cuh:261 HOST: 21049532 has max out degree 5213
+./include/graph.cuh:161 HOST: alias_length 994391366, using 0.2655
+src/main.cu:170 HOST: overriding um for alias table
+src/main.cu:214 HOST: device_id 0 ompid 0 coreid 37
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_walk.cu:179 HOST: UnbiasedWalk
+src/unbiased_walk.cu:244 HOST: Device 0 sampling time:	0.001043 ratio:	 3439.44 MSEPS sampled 3586800
+./include/gpu_graph.cuh:155 HOST: free
+
+1.04	
+3439.44	
+src/main.cu:150 HOST: SPEC_EXE 
+/home/pywang/data/sk-2005.w.gr has 50636151 nodes and 1949412601  edges
+./include/graph.cuh:261 HOST: 19879527 has max out degree 12870
+./include/graph.cuh:161 HOST: alias_length 2160816208, using 0.2771
+src/main.cu:170 HOST: overriding um for alias table
+src/main.cu:214 HOST: device_id 0 ompid 0 coreid 14
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_walk.cu:179 HOST: UnbiasedWalk
+src/unbiased_walk.cu:244 HOST: Device 0 sampling time:	0.000071 ratio:	 497.17 MSEPS sampled 35323
+./include/gpu_graph.cuh:155 HOST: free
+
+0.07	
+497.17	
+src/main.cu:150 HOST: SPEC_EXE 
+/home/pywang/data/friendster.w.gr has 124836180 nodes and 1806067135  edges
+./include/graph.cuh:261 HOST: 7688909 has max out degree 3615
+./include/graph.cuh:161 HOST: alias_length 2449802515, using 0.3391
+src/main.cu:170 HOST: overriding um for alias table
+src/main.cu:214 HOST: device_id 0 ompid 0 coreid 29
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_walk.cu:179 HOST: UnbiasedWalk
+src/unbiased_walk.cu:244 HOST: Device 0 sampling time:	0.000042 ratio:	 353.27 MSEPS sampled 14908
+./include/gpu_graph.cuh:155 HOST: free
+
+0.04	
+353.27	
+-------------------------------------------------------online sp 100
+-------------------------------------------------------node2vec 
+web-Google.w.gr
+
+1.09	
+2979.86	
+lj.w.gr
+
+1.96	
+1980.56	
+orkut.w.gr
+
+0.44	
+9096.30	
+arabic-2005.w.gr
+
+0.11	
+8873.96	
+uk-2005.w.gr
+
+1.05	
+3425.35	
+sk-2005.w.gr
+
+0.06	
+561.19	
+friendster.w.gr
+-------------------------------------------------------node2vec --static=0 
+web-Google.w.gr
+
+12.82	
+81.88	
+lj.w.gr
+
+99.70	
+15.09	
+orkut.w.gr
+
+11.59	
+23.14	
+arabic-2005.w.gr
+
+11.85	
+52.01	
+uk-2005.w.gr
+
+36.94	
+52.50	
+sk-2005.w.gr
+
+84.73	
+5.83	
+friendster.w.gr
+
+60.19	
+1.73	
+-------------------------------------------------------node2vec --static=0 
+web-Google.w.gr
+lj.w.gr
+orkut.w.gr

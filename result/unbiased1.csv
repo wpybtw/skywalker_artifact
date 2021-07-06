@@ -1,0 +1,114 @@
+web-Google.w.gr
+alias_length 5108155, using 0.2502
+
+0.60	
+4190.93	
+lj.w.gr
+alias_length 74759502, using 0.2709
+
+2.01	
+5690.17	
+orkut.w.gr
+alias_length 144976991, using 0.3093
+
+2.67	
+5227.62	
+arabic-2005.w.gr
+alias_length 757063734, using 0.2957
+
+0.68	
+11233.28	
+uk-2005.w.gr
+alias_length 994391366, using 0.2655
+
+0.69	
+9407.75	
+sk-2005.w.gr
+src/main.cu:139 HOST: SPEC_EXE 
+/home/pywang/data/web-Google.w.gr has 916428 nodes and 5105039  edges
+./include/graph.cuh:260 HOST: 506742 has max out degree 456
+alias_length 5108155, using 0.2502
+src/main.cu:201 HOST: device_id 0 ompid 0 coreid 32
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_sample.cu:155 HOST: UnbiasedSample
+src/unbiased_sample.cu:228 HOST: Device 0 sampling time:	0.000600 ratio:	 4205.67 MSEPS sampled 2523822
+./include/gpu_graph.cuh:155 HOST: free
+
+0.60	
+4205.67	
+src/main.cu:139 HOST: SPEC_EXE 
+/home/pywang/data/lj.w.gr has 4847571 nodes and 68993773  edges
+./include/graph.cuh:260 HOST: 10009 has max out degree 20293
+alias_length 74759502, using 0.2709
+src/main.cu:201 HOST: device_id 0 ompid 0 coreid 4
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_sample.cu:155 HOST: UnbiasedSample
+src/unbiased_sample.cu:228 HOST: Device 0 sampling time:	0.002003 ratio:	 5699.86 MSEPS sampled 11416559
+./include/gpu_graph.cuh:155 HOST: free
+
+2.00	
+5699.86	
+src/main.cu:139 HOST: SPEC_EXE 
+/home/pywang/data/orkut.w.gr has 3072627 nodes and 117185083  edges
+./include/graph.cuh:260 HOST: 43608 has max out degree 33007
+alias_length 144976991, using 0.3093
+src/main.cu:201 HOST: device_id 0 ompid 0 coreid 10
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_sample.cu:155 HOST: UnbiasedSample
+src/unbiased_sample.cu:228 HOST: Device 0 sampling time:	0.002658 ratio:	 5252.86 MSEPS sampled 13961517
+./include/gpu_graph.cuh:155 HOST: free
+
+2.66	
+5252.86	
+src/main.cu:139 HOST: SPEC_EXE 
+/home/pywang/data/arabic-2005.w.gr has 22744077 nodes and 639999458  edges
+./include/graph.cuh:260 HOST: 2960953 has max out degree 9905
+alias_length 757063734, using 0.2957
+src/main.cu:159 HOST: overriding um for alias table
+src/main.cu:201 HOST: device_id 0 ompid 0 coreid 20
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_sample.cu:155 HOST: UnbiasedSample
+src/unbiased_sample.cu:228 HOST: Device 0 sampling time:	0.000685 ratio:	 11133.01 MSEPS sampled 7625852
+./include/gpu_graph.cuh:155 HOST: free
+
+0.68	
+11133.01	
+src/main.cu:139 HOST: SPEC_EXE 
+/home/pywang/data/uk-2005.w.gr has 39459923 nodes and 936364282  edges
+./include/graph.cuh:260 HOST: 21049532 has max out degree 5213
+alias_length 994391366, using 0.2655
+src/main.cu:159 HOST: overriding um for alias table
+src/main.cu:201 HOST: device_id 0 ompid 0 coreid 22
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_sample.cu:155 HOST: UnbiasedSample
+src/unbiased_sample.cu:228 HOST: Device 0 sampling time:	0.000681 ratio:	 9482.45 MSEPS sampled 6459082
+./include/gpu_graph.cuh:155 HOST: free
+
+0.68	
+9482.45	
+src/main.cu:139 HOST: SPEC_EXE 
+/home/pywang/data/sk-2005.w.gr has 50636151 nodes and 1949412601  edges
+./include/graph.cuh:260 HOST: 19879527 has max out degree 12870
+alias_length 2160816208, using 0.2771
+src/main.cu:159 HOST: overriding um for alias table
+src/main.cu:201 HOST: device_id 0 ompid 0 coreid 7
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_sample.cu:155 HOST: UnbiasedSample
+src/unbiased_sample.cu:228 HOST: Device 0 sampling time:	0.000538 ratio:	 20728.34 MSEPS sampled 11154141
+./include/gpu_graph.cuh:155 HOST: free
+
+0.54	
+20728.34	
+src/main.cu:139 HOST: SPEC_EXE 
+/home/pywang/data/friendster.w.gr has 124836180 nodes and 1806067135  edges
+./include/graph.cuh:260 HOST: 7688909 has max out degree 3615
+alias_length 2449802515, using 0.3391
+src/main.cu:159 HOST: overriding um for alias table
+src/main.cu:201 HOST: device_id 0 ompid 0 coreid 21
+./include/gpu_graph.cuh:118 HOST: Set_Mem_Policy
+src/unbiased_sample.cu:155 HOST: UnbiasedSample
+src/unbiased_sample.cu:228 HOST: Device 0 sampling time:	0.000499 ratio:	 5645.11 MSEPS sampled 2816965
+./include/gpu_graph.cuh:155 HOST: free
+
+0.50	
+5645.11	

@@ -1,0 +1,593 @@
+
+00_runtime:		5.92999 s
+g_loadSubGraph:		0.187437s	 (count: 2, min: 0.011253s, max: 0.176184, avg: 0.0937185s)
+
+file:	/home/pywang/data/lj.w.edge
+
+00_runtime:             73.3327 s
+g_loadSubGraph:         2.16317s
+file: /uk-2005
+
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		15
+[Timings]
+00_runtime:		103.496 s
+0_startWalks:		0.187372 s
+1_chooseBlock:		0.000549s	 (count: 553, min: 0s, max: 5e-06, avg: 9.92767e-07s)
+2_findSubGraph:		4.09017s	 (count: 553, min: 0s, max: 0.3314, avg: 0.00739633s)
+3_getCurrentWalks:		10.6663s	 (count: 553, min: 0s, max: 0.228772, avg: 0.0192881s)
+4_writeWalks2Disk:		-31.7244s	 (count: 360690, min: -43.38s, max: 0.041424, avg: -8.79549e-05s)
+5_exec_updates:		88.1267s	 (count: 553, min: 0s, max: 0.491774, avg: 0.159361s)
+6_updateWalkNum:		0.600172s	 (count: 553, min: 1e-06s, max: 0.013176, avg: 0.0010853s)
+g_loadSubGraph:		4.08989s	 (count: 15, min: 0.134708s, max: 0.331397, avg: 0.272659s)
+z__g_loadSubGraph_read_begpos:		0.245545s	 (count: 15, min: 0.006962s, max: 0.024956, avg: 0.0163697s)
+z__g_loadSubGraph_read_csr:		3.84405s	 (count: 15, min: 0.127728s, max: 0.306415, avg: 0.25627s)
+z__g_loadSubGraph_realloc_csr:		1.1e-05s	 (count: 15, min: 0s, max: 1e-06, avg: 7.33333e-07s)
+z_w_clear_curwalks:		0.597058s	 (count: 553, min: 0s, max: 0.013169, avg: 0.00107967s)
+z_w_readWalksfromDisk:		10.4166s	 (count: 339, min: 3e-05s, max: 0.227834, avg: 0.0307274s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	/home/pywang/data/sk-2005
+-------------------------------------------------------unbias rw V 100
+-------------------------------------------------------unbias rw V 100
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		7
+[Timings]
+00_runtime:		463.637 s
+0_startWalks:		1.75279 s
+1_chooseBlock:		0.000416s	 (count: 336, min: 0s, max: 1.9e-05, avg: 1.2381e-06s)
+2_findSubGraph:		5.07314s	 (count: 336, min: 0s, max: 0.793941, avg: 0.0150986s)
+3_getCurrentWalks:		49.85s	 (count: 336, min: 0s, max: 0.620774, avg: 0.148363s)
+4_writeWalks2Disk:		66.2916s	 (count: 1583311, min: -2e-06s, max: 0.121253, avg: 4.1854e-05s)
+5_exec_updates:		404.517s	 (count: 336, min: 1e-06s, max: 4.80467, avg: 1.20392s)
+6_updateWalkNum:		4.18519s	 (count: 336, min: 1e-06s, max: 0.04992, avg: 0.0124559s)
+g_loadSubGraph:		5.07296s	 (count: 7, min: 0.690684s, max: 0.793938, avg: 0.724708s)
+z__g_loadSubGraph_read_begpos:		0.587933s	 (count: 7, min: 0.039912s, max: 0.228435, avg: 0.0839904s)
+z__g_loadSubGraph_read_csr:		4.48144s	 (count: 7, min: 0.495719s, max: 0.687879, avg: 0.640205s)
+z__g_loadSubGraph_realloc_csr:		6e-06s	 (count: 7, min: 0s, max: 1e-06, avg: 8.57143e-07s)
+z_w_clear_curwalks:		4.18315s	 (count: 336, min: 0s, max: 0.049911, avg: 0.0124498s)
+z_w_readWalksfromDisk:		49.332s	 (count: 249, min: 7.2e-05s, max: 0.620026, avg: 0.19812s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	/home/pywang/data/friendster.w.edge
+-------------------------------------------------------unbias rw V 100
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		7
+[Timings]
+00_runtime:		71.992 s
+0_startWalks:		0.285974 s
+1_chooseBlock:		0.000283s	 (count: 278, min: 0s, max: 7e-06, avg: 1.01799e-06s)
+2_findSubGraph:		2.34169s	 (count: 278, min: 0s, max: 0.428463, avg: 0.00842335s)
+3_getCurrentWalks:		6.24843s	 (count: 278, min: 0s, max: 0.259626, avg: 0.0224764s)
+4_writeWalks2Disk:		9.30961s	 (count: 201590, min: 0s, max: 0.027399, avg: 4.61809e-05s)
+5_exec_updates:		62.9966s	 (count: 278, min: 0s, max: 1.10119, avg: 0.226607s)
+6_updateWalkNum:		0.397393s	 (count: 278, min: 1e-06s, max: 0.012392, avg: 0.00142947s)
+g_loadSubGraph:		2.34156s	 (count: 7, min: 0.244027s, max: 0.42846, avg: 0.334509s)
+z__g_loadSubGraph_read_begpos:		0.193495s	 (count: 7, min: 0.014712s, max: 0.037523, avg: 0.0276421s)
+z__g_loadSubGraph_read_csr:		2.14793s	 (count: 7, min: 0.229296s, max: 0.392052, avg: 0.306847s)
+z__g_loadSubGraph_realloc_csr:		3e-06s	 (count: 7, min: 0s, max: 1e-06, avg: 4.28571e-07s)
+z_w_clear_curwalks:		0.396258s	 (count: 278, min: 0s, max: 0.012386, avg: 0.00142539s)
+z_w_readWalksfromDisk:		6.06788s	 (count: 127, min: 9.3e-05s, max: 0.257632, avg: 0.0477786s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	/home/pywang/data/uk-2005.w.edge
+-------------------------------------------------------unbias rw V 100
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		2
+[Timings]
+00_runtime:		4.73117 s
+0_startWalks:		0.161655 s
+1_chooseBlock:		4.7e-05s	 (count: 69, min: 0s, max: 5e-06, avg: 6.81159e-07s)
+2_findSubGraph:		0.202262s	 (count: 69, min: 0s, max: 0.196329, avg: 0.00293133s)
+3_getCurrentWalks:		0.219008s	 (count: 69, min: 0s, max: 0.033375, avg: 0.00317403s)
+4_writeWalks2Disk:		0.310845s	 (count: 9230, min: 0s, max: 0.003337, avg: 3.36777e-05s)
+5_exec_updates:		4.30093s	 (count: 69, min: 2e-06s, max: 0.737913, avg: 0.0623323s)
+6_updateWalkNum:		0.008571s	 (count: 69, min: 1e-06s, max: 0.002505, avg: 0.000124217s)
+g_loadSubGraph:		0.202233s	 (count: 2, min: 0.005908s, max: 0.196325, avg: 0.101116s)
+z__g_loadSubGraph_read_begpos:		0.022182s	 (count: 2, min: 0.002645s, max: 0.019537, avg: 0.011091s)
+z__g_loadSubGraph_read_csr:		0.180007s	 (count: 2, min: 0.003248s, max: 0.176759, avg: 0.0900035s)
+z__g_loadSubGraph_realloc_csr:		1e-06s	 (count: 2, min: 0s, max: 1e-06, avg: 5e-07s)
+z_w_clear_curwalks:		0.008389s	 (count: 69, min: 0s, max: 0.002476, avg: 0.00012158s)
+z_w_readWalksfromDisk:		0.205765s	 (count: 17, min: 0.000609s, max: 0.032868, avg: 0.0121038s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	/home/pywang/data/lj.w.edge
+-------------------------------------------------------unbias rw V 100
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		2
+[Timings]
+00_runtime:		6.19234 s
+0_startWalks:		0.163605 s
+1_chooseBlock:		4.2e-05s	 (count: 65, min: 0s, max: 4e-06, avg: 6.46154e-07s)
+2_findSubGraph:		0.21197s	 (count: 65, min: 0s, max: 0.201163, avg: 0.00326108s)
+3_getCurrentWalks:		0.2566s	 (count: 65, min: 0s, max: 0.038086, avg: 0.00394769s)
+4_writeWalks2Disk:		0.398367s	 (count: 9208, min: 0s, max: 0.002812, avg: 4.32631e-05s)
+5_exec_updates:		5.70833s	 (count: 65, min: 1e-06s, max: 0.826541, avg: 0.0878204s)
+6_updateWalkNum:		0.014993s	 (count: 65, min: 1e-06s, max: 0.004183, avg: 0.000230662s)
+g_loadSubGraph:		0.211944s	 (count: 2, min: 0.010785s, max: 0.201159, avg: 0.105972s)
+z__g_loadSubGraph_read_begpos:		0.022882s	 (count: 2, min: 0.005297s, max: 0.017585, avg: 0.011441s)
+z__g_loadSubGraph_read_csr:		0.189004s	 (count: 2, min: 0.005452s, max: 0.183552, avg: 0.094502s)
+z__g_loadSubGraph_realloc_csr:		1e-06s	 (count: 2, min: 0s, max: 1e-06, avg: 5e-07s)
+z_w_clear_curwalks:		0.014816s	 (count: 65, min: 0s, max: 0.004175, avg: 0.000227938s)
+z_w_readWalksfromDisk:		0.241157s	 (count: 17, min: 0.000586s, max: 0.037573, avg: 0.0141857s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	/home/pywang/data/lj.w.edge
+-------------------------------------------------------unbias rw V 100
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		2
+[Timings]
+00_runtime:		6.23363 s
+0_startWalks:		0.160163 s
+1_chooseBlock:		5.4e-05s	 (count: 71, min: 0s, max: 4e-06, avg: 7.60563e-07s)
+2_findSubGraph:		0.218507s	 (count: 71, min: 0s, max: 0.206626, avg: 0.00307756s)
+3_getCurrentWalks:		0.259395s	 (count: 71, min: 0s, max: 0.038601, avg: 0.00365345s)
+4_writeWalks2Disk:		0.460609s	 (count: 9213, min: 0s, max: 0.00513, avg: 4.99955e-05s)
+5_exec_updates:		5.74268s	 (count: 71, min: 1e-06s, max: 0.800359, avg: 0.0808828s)
+6_updateWalkNum:		0.012578s	 (count: 71, min: 1e-06s, max: 0.004208, avg: 0.000177155s)
+g_loadSubGraph:		0.218476s	 (count: 2, min: 0.011853s, max: 0.206623, avg: 0.109238s)
+z__g_loadSubGraph_read_begpos:		0.024449s	 (count: 2, min: 0.005308s, max: 0.019141, avg: 0.0122245s)
+z__g_loadSubGraph_read_csr:		0.193972s	 (count: 2, min: 0.006515s, max: 0.187457, avg: 0.096986s)
+z__g_loadSubGraph_realloc_csr:		2e-06s	 (count: 2, min: 0s, max: 2e-06, avg: 1e-06s)
+z_w_clear_curwalks:		0.012406s	 (count: 71, min: 0s, max: 0.0042, avg: 0.000174732s)
+z_w_readWalksfromDisk:		0.244743s	 (count: 17, min: 0.000591s, max: 0.038002, avg: 0.0143966s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	/home/pywang/data/lj.w.edge
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		5
+[Timings]
+00_runtime:		44.1513 s
+0_startWalks:		0.221995 s
+1_chooseBlock:		0.000201s	 (count: 182, min: 0s, max: 4e-06, avg: 1.1044e-06s)
+2_findSubGraph:		1.50947s	 (count: 182, min: 0s, max: 0.350311, avg: 0.00829381s)
+3_getCurrentWalks:		4.25011s	 (count: 182, min: 0s, max: 0.286695, avg: 0.0233522s)
+4_writeWalks2Disk:		5.47793s	 (count: 135231, min: 0s, max: 0.015773, avg: 4.05082e-05s)
+5_exec_updates:		38.0744s	 (count: 182, min: 1e-06s, max: 0.725186, avg: 0.2092s)
+6_updateWalkNum:		0.313315s	 (count: 182, min: 1e-06s, max: 0.020985, avg: 0.00172151s)
+g_loadSubGraph:		1.50938s	 (count: 5, min: 0.196886s, max: 0.350308, avg: 0.301876s)
+z__g_loadSubGraph_read_begpos:		0.112311s	 (count: 5, min: 0.012621s, max: 0.027788, avg: 0.0224622s)
+z__g_loadSubGraph_read_csr:		1.39697s	 (count: 5, min: 0.184245s, max: 0.328082, avg: 0.279395s)
+z__g_loadSubGraph_realloc_csr:		4e-06s	 (count: 5, min: 0s, max: 1e-06, avg: 8e-07s)
+z_w_clear_curwalks:		0.312569s	 (count: 182, min: 0s, max: 0.020978, avg: 0.00171741s)
+z_w_readWalksfromDisk:		4.12121s	 (count: 98, min: 0.000543s, max: 0.284708, avg: 0.0420532s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	/home/pywang/data/arabic-2005.w.edge
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		7
+[Timings]
+00_runtime:		70.2424 s
+0_startWalks:		0.276529 s
+1_chooseBlock:		0.000248s	 (count: 276, min: 0s, max: 5e-06, avg: 8.98551e-07s)
+2_findSubGraph:		2.42539s	 (count: 276, min: 0s, max: 0.384149, avg: 0.00878765s)
+3_getCurrentWalks:		5.98426s	 (count: 276, min: 0s, max: 0.103301, avg: 0.0216821s)
+4_writeWalks2Disk:		-509.972s	 (count: 201496, min: -518.147s, max: 0.020383, avg: -0.00253093s)
+5_exec_updates:		61.3646s	 (count: 276, min: 1e-06s, max: 1.02027, avg: 0.222336s)
+6_updateWalkNum:		0.460948s	 (count: 276, min: 1e-06s, max: 0.019857, avg: 0.0016701s)
+g_loadSubGraph:		2.42527s	 (count: 7, min: 0.283921s, max: 0.384147, avg: 0.346468s)
+z__g_loadSubGraph_read_begpos:		0.213856s	 (count: 7, min: 0.015744s, max: 0.037965, avg: 0.0305509s)
+z__g_loadSubGraph_read_csr:		2.20494s	 (count: 7, min: 0.268161s, max: 0.347301, avg: 0.314991s)
+z__g_loadSubGraph_realloc_csr:		7e-06s	 (count: 7, min: 0s, max: 2e-06, avg: 1e-06s)
+z_w_clear_curwalks:		0.45988s	 (count: 276, min: 0s, max: 0.019851, avg: 0.00166623s)
+z_w_readWalksfromDisk:		5.83337s	 (count: 127, min: 4.2e-05s, max: 0.102556, avg: 0.0459321s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	/home/pywang/data/uk-2005.w.edge
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		15
+[Timings]
+00_runtime:		110.165 s
+0_startWalks:		0.208265 s
+1_chooseBlock:		0.000626s	 (count: 557, min: 0s, max: 9e-06, avg: 1.12388e-06s)
+2_findSubGraph:		4.53834s	 (count: 557, min: 0s, max: 0.382977, avg: 0.00814783s)
+3_getCurrentWalks:		10.6145s	 (count: 557, min: 0s, max: 0.168722, avg: 0.0190565s)
+4_writeWalks2Disk:		14.5626s	 (count: 360581, min: -1e-06s, max: 0.03139, avg: 4.03864e-05s)
+5_exec_updates:		94.3664s	 (count: 557, min: 0s, max: 0.52506, avg: 0.169419s)
+6_updateWalkNum:		0.631892s	 (count: 557, min: 1e-06s, max: 0.006907, avg: 0.00113446s)
+g_loadSubGraph:		4.5381s	 (count: 15, min: 0.145567s, max: 0.382969, avg: 0.30254s)
+z__g_loadSubGraph_read_begpos:		0.235609s	 (count: 15, min: 0.007184s, max: 0.032855, avg: 0.0157073s)
+z__g_loadSubGraph_read_csr:		4.30021s	 (count: 15, min: 0.136418s, max: 0.350076, avg: 0.286681s)
+z__g_loadSubGraph_realloc_csr:		1e-05s	 (count: 15, min: 0s, max: 1e-06, avg: 6.66667e-07s)
+z_w_clear_curwalks:		0.628801s	 (count: 557, min: 0s, max: 0.006891, avg: 0.00112891s)
+z_w_readWalksfromDisk:		10.3432s	 (count: 338, min: 3.5e-05s, max: 0.166638, avg: 0.0306011s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	/home/pywang/data/sk-2005
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		7
+[Timings]
+00_runtime:		478.373 s
+0_startWalks:		1.76716 s
+1_chooseBlock:		0.000435s	 (count: 333, min: 0s, max: 1e-05, avg: 1.30631e-06s)
+2_findSubGraph:		29.6946s	 (count: 333, min: 0s, max: 12.5561, avg: 0.0891729s)
+3_getCurrentWalks:		46.7099s	 (count: 333, min: 0s, max: 0.556066, avg: 0.14027s)
+4_writeWalks2Disk:		76.8966s	 (count: 1583519, min: -1e-06s, max: 0.074215, avg: 4.85435e-05s)
+5_exec_updates:		398.172s	 (count: 333, min: 0s, max: 4.77065, avg: 1.19571s)
+6_updateWalkNum:		3.78475s	 (count: 333, min: 1e-06s, max: 0.05401, avg: 0.0113656s)
+g_loadSubGraph:		29.6944s	 (count: 7, min: 2.25462s, max: 12.5561, avg: 4.24206s)
+z__g_loadSubGraph_read_begpos:		2.97543s	 (count: 7, min: 0.210449s, max: 0.931155, avg: 0.425062s)
+z__g_loadSubGraph_read_csr:		26.687s	 (count: 7, min: 2.04414s, max: 11.8929, avg: 3.81243s)
+z__g_loadSubGraph_realloc_csr:		1.3e-05s	 (count: 7, min: 1e-06s, max: 2e-06, avg: 1.85714e-06s)
+z_w_clear_curwalks:		3.78289s	 (count: 333, min: 0s, max: 0.054, avg: 0.01136s)
+z_w_readWalksfromDisk:		46.2332s	 (count: 248, min: 0.000602s, max: 0.555389, avg: 0.186424s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	/home/pywang/data/friendster.w.edge
+-------------------------------------------------------unbias rw V 100
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		2
+[Timings]
+00_runtime:		0.639093 s
+0_startWalks:		0.161627 s
+1_chooseBlock:		7e-06s	 (count: 7, min: 0s, max: 3e-06, avg: 1e-06s)
+2_findSubGraph:		0.203851s	 (count: 7, min: 0s, max: 0.197284, avg: 0.0291216s)
+3_getCurrentWalks:		0.043503s	 (count: 7, min: 8.3e-05s, max: 0.024785, avg: 0.00621471s)
+4_writeWalks2Disk:		0.04345s	 (count: 1638, min: 0s, max: 0.000116, avg: 2.65263e-05s)
+5_exec_updates:		0.388959s	 (count: 7, min: 9.3e-05s, max: 0.172215, avg: 0.0555656s)
+6_updateWalkNum:		0.002666s	 (count: 7, min: 2e-06s, max: 0.001956, avg: 0.000380857s)
+g_loadSubGraph:		0.203845s	 (count: 2, min: 0.006564s, max: 0.197281, avg: 0.101922s)
+z__g_loadSubGraph_read_begpos:		0.022897s	 (count: 2, min: 0.002651s, max: 0.020246, avg: 0.0114485s)
+z__g_loadSubGraph_read_csr:		0.180907s	 (count: 2, min: 0.003894s, max: 0.177013, avg: 0.0904535s)
+z__g_loadSubGraph_realloc_csr:		2e-06s	 (count: 2, min: 1e-06s, max: 1e-06, avg: 1e-06s)
+z_w_clear_curwalks:		0.002646s	 (count: 7, min: 1e-06s, max: 0.00195, avg: 0.000378s)
+z_w_readWalksfromDisk:		0.040896s	 (count: 5, min: 0.000307s, max: 0.024743, avg: 0.0081792s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	/home/pywang/data/lj.w.edge
+-------------------------------------------------------unbias rw V 100
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		9
+[Timings]
+00_runtime:		0.236339 s
+0_startWalks:		0.027112 s
+1_chooseBlock:		5.7e-05s	 (count: 126, min: 0s, max: 3e-06, avg: 4.52381e-07s)
+2_findSubGraph:		0.218672s	 (count: 126, min: 0s, max: 0.029905, avg: 0.00173549s)
+3_getCurrentWalks:		0.000407s	 (count: 126, min: 0s, max: 6.4e-05, avg: 3.23016e-06s)
+5_exec_updates:		0.016465s	 (count: 126, min: 0s, max: 0.010619, avg: 0.000130675s)
+6_updateWalkNum:		0.000307s	 (count: 126, min: 1e-06s, max: 9e-06, avg: 2.43651e-06s)
+g_loadSubGraph:		0.218629s	 (count: 9, min: 0.006155s, max: 0.029904, avg: 0.0242921s)
+z__g_loadSubGraph_read_begpos:		0.025123s	 (count: 9, min: 0.000881s, max: 0.008716, avg: 0.00279144s)
+z__g_loadSubGraph_read_csr:		0.193401s	 (count: 9, min: 0.003577s, max: 0.027901, avg: 0.021489s)
+z__g_loadSubGraph_realloc_csr:		4e-06s	 (count: 9, min: 0s, max: 1e-06, avg: 4.44444e-07s)
+z_w_clear_curwalks:		4.8e-05s	 (count: 126, min: 0s, max: 3e-06, avg: 3.80952e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/lj.w.edge
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		76
+[Timings]
+00_runtime:		1.10527 s
+0_startWalks:		0.02097 s
+1_chooseBlock:		0.000108s	 (count: 174, min: 0s, max: 3e-06, avg: 6.2069e-07s)
+2_findSubGraph:		1.1004s	 (count: 174, min: 0s, max: 0.022357, avg: 0.00632415s)
+3_getCurrentWalks:		0.000515s	 (count: 174, min: 0s, max: 5.6e-05, avg: 2.95977e-06s)
+5_exec_updates:		0.003027s	 (count: 174, min: 0s, max: 0.00062, avg: 1.73966e-05s)
+6_updateWalkNum:		0.000576s	 (count: 174, min: 1e-06s, max: 1.9e-05, avg: 3.31034e-06s)
+g_loadSubGraph:		1.1003s	 (count: 57, min: 0.017226s, max: 0.022356, avg: 0.0193036s)
+z__g_loadSubGraph_read_begpos:		0.069416s	 (count: 57, min: 0.000252s, max: 0.002052, avg: 0.00121782s)
+z__g_loadSubGraph_read_csr:		1.03032s	 (count: 57, min: 0.015841s, max: 0.021045, avg: 0.0180759s)
+z__g_loadSubGraph_realloc_csr:		3.1e-05s	 (count: 57, min: 0s, max: 1e-06, avg: 5.4386e-07s)
+z_w_clear_curwalks:		7.5e-05s	 (count: 174, min: 0s, max: 2e-06, avg: 4.31034e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/arabic-2005.w.edge
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		110
+[Timings]
+00_runtime:		1.99981 s
+0_startWalks:		0.030652 s
+1_chooseBlock:		0.000208s	 (count: 280, min: 0s, max: 3e-06, avg: 7.42857e-07s)
+2_findSubGraph:		1.98514s	 (count: 280, min: 0s, max: 0.024353, avg: 0.00708977s)
+3_getCurrentWalks:		0.001411s	 (count: 280, min: 0s, max: 6.7e-05, avg: 5.03929e-06s)
+5_exec_updates:		0.011168s	 (count: 280, min: 1e-06s, max: 0.007565, avg: 3.98857e-05s)
+6_updateWalkNum:		0.000896s	 (count: 280, min: 1e-06s, max: 3.3e-05, avg: 3.2e-06s)
+g_loadSubGraph:		1.98496s	 (count: 96, min: 0.018672s, max: 0.02435, avg: 0.0206767s)
+z__g_loadSubGraph_read_begpos:		0.170045s	 (count: 96, min: 0.000438s, max: 0.002591, avg: 0.0017713s)
+z__g_loadSubGraph_read_csr:		1.8141s	 (count: 96, min: 0.01687s, max: 0.02179, avg: 0.0188969s)
+z__g_loadSubGraph_realloc_csr:		7.2e-05s	 (count: 96, min: 0s, max: 9e-06, avg: 7.5e-07s)
+z_w_clear_curwalks:		0.000108s	 (count: 280, min: 0s, max: 3e-06, avg: 3.85714e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/uk-2005.w.edge
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		231
+[Timings]
+00_runtime:		1.59222 s
+0_startWalks:		0.017009 s
+1_chooseBlock:		0.000177s	 (count: 167, min: 0s, max: 3e-06, avg: 1.05988e-06s)
+2_findSubGraph:		1.58828s	 (count: 167, min: 0s, max: 0.022237, avg: 0.00951068s)
+3_getCurrentWalks:		0.000358s	 (count: 167, min: 0s, max: 5.4e-05, avg: 2.14371e-06s)
+5_exec_updates:		0.002229s	 (count: 167, min: 1e-06s, max: 0.001128, avg: 1.33473e-05s)
+6_updateWalkNum:		0.000546s	 (count: 167, min: 1e-06s, max: 3.3e-05, avg: 3.26946e-06s)
+g_loadSubGraph:		1.58816s	 (count: 87, min: 0.014597s, max: 0.022235, avg: 0.0182547s)
+z__g_loadSubGraph_read_begpos:		0.086558s	 (count: 87, min: 0.000161s, max: 0.003975, avg: 0.00099492s)
+z__g_loadSubGraph_read_csr:		1.50086s	 (count: 87, min: 0.014177s, max: 0.021012, avg: 0.0172513s)
+z__g_loadSubGraph_realloc_csr:		3.8e-05s	 (count: 87, min: 0s, max: 1e-06, avg: 4.36782e-07s)
+z_w_clear_curwalks:		6.8e-05s	 (count: 167, min: 0s, max: 3e-06, avg: 4.07186e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/sk-2005
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		216
+[Timings]
+00_runtime:		4.53575 s
+0_startWalks:		0.028879 s
+1_chooseBlock:		0.000399s	 (count: 354, min: 0s, max: 7e-06, avg: 1.12712e-06s)
+2_findSubGraph:		4.52163s	 (count: 354, min: 0s, max: 0.048567, avg: 0.012773s)
+3_getCurrentWalks:		0.001717s	 (count: 354, min: 0s, max: 0.000457, avg: 4.85028e-06s)
+5_exec_updates:		0.008885s	 (count: 354, min: 1e-06s, max: 0.001638, avg: 2.50989e-05s)
+6_updateWalkNum:		0.001752s	 (count: 354, min: 1e-06s, max: 9.2e-05, avg: 4.94915e-06s)
+g_loadSubGraph:		4.52127s	 (count: 212, min: 0.018153s, max: 0.048566, avg: 0.0213268s)
+z__g_loadSubGraph_read_begpos:		0.596338s	 (count: 212, min: 0.000961s, max: 0.042833, avg: 0.00281292s)
+z__g_loadSubGraph_read_csr:		3.92284s	 (count: 212, min: 0.005721s, max: 0.032679, avg: 0.018504s)
+z__g_loadSubGraph_realloc_csr:		0.000119s	 (count: 212, min: 0s, max: 2e-06, avg: 5.61321e-07s)
+z_w_clear_curwalks:		0.000144s	 (count: 354, min: 0s, max: 2e-06, avg: 4.0678e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/friendster.w.edge
+-------------------------------------------------------unbias ppr 40000 100
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		5
+[Timings]
+00_runtime:		0.247306 s
+0_startWalks:		0.029594 s
+1_chooseBlock:		4.3e-05s	 (count: 85, min: 0s, max: 6e-06, avg: 5.05882e-07s)
+2_findSubGraph:		0.218508s	 (count: 85, min: 0s, max: 0.058713, avg: 0.00257068s)
+3_getCurrentWalks:		0.001413s	 (count: 85, min: 0s, max: 0.000386, avg: 1.66235e-05s)
+5_exec_updates:		0.026736s	 (count: 85, min: 0s, max: 0.014622, avg: 0.000314541s)
+6_updateWalkNum:		0.000277s	 (count: 85, min: 1e-06s, max: 5.2e-05, avg: 3.25882e-06s)
+g_loadSubGraph:		0.218467s	 (count: 5, min: 0.006745s, max: 0.058712, avg: 0.0436934s)
+z__g_loadSubGraph_read_begpos:		0.025881s	 (count: 5, min: 0.002539s, max: 0.013113, avg: 0.0051762s)
+z__g_loadSubGraph_read_csr:		0.192487s	 (count: 5, min: 0.003644s, max: 0.051079, avg: 0.0384974s)
+z__g_loadSubGraph_realloc_csr:		3e-06s	 (count: 5, min: 0s, max: 1e-06, avg: 6e-07s)
+z_w_clear_curwalks:		8.6e-05s	 (count: 85, min: 0s, max: 4.7e-05, avg: 1.01176e-06s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/lj.w.edge
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		38
+[Timings]
+00_runtime:		1.60767 s
+0_startWalks:		0.019917 s
+1_chooseBlock:		0.000106s	 (count: 209, min: 0s, max: 3e-06, avg: 5.07177e-07s)
+2_findSubGraph:		1.56792s	 (count: 209, min: 0s, max: 0.052469, avg: 0.00750202s)
+3_getCurrentWalks:		0.002057s	 (count: 209, min: 0s, max: 0.000362, avg: 9.84211e-06s)
+5_exec_updates:		0.035825s	 (count: 209, min: 0s, max: 0.005945, avg: 0.000171411s)
+6_updateWalkNum:		0.000842s	 (count: 209, min: 1e-06s, max: 9.9e-05, avg: 4.02871e-06s)
+g_loadSubGraph:		1.56782s	 (count: 38, min: 0.028139s, max: 0.052466, avg: 0.0412584s)
+z__g_loadSubGraph_read_begpos:		0.103601s	 (count: 38, min: 0.001137s, max: 0.00523, avg: 0.00272634s)
+z__g_loadSubGraph_read_csr:		1.46375s	 (count: 38, min: 0.026213s, max: 0.047212, avg: 0.0385197s)
+z__g_loadSubGraph_realloc_csr:		2.5e-05s	 (count: 38, min: 0s, max: 1e-06, avg: 6.57895e-07s)
+z_w_clear_curwalks:		0.000153s	 (count: 209, min: 0s, max: 7e-05, avg: 7.32057e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/arabic-2005.w.edge
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		55
+[Timings]
+00_runtime:		2.11419 s
+0_startWalks:		0.016822 s
+1_chooseBlock:		0.00016s	 (count: 301, min: 0s, max: 3e-06, avg: 5.31561e-07s)
+2_findSubGraph:		2.08488s	 (count: 301, min: 0s, max: 0.049377, avg: 0.00692651s)
+3_getCurrentWalks:		0.004017s	 (count: 301, min: 0s, max: 0.000353, avg: 1.33455e-05s)
+5_exec_updates:		0.022747s	 (count: 301, min: 0s, max: 0.006266, avg: 7.55714e-05s)
+6_updateWalkNum:		0.001238s	 (count: 301, min: 1e-06s, max: 0.000104, avg: 4.11296e-06s)
+g_loadSubGraph:		2.08473s	 (count: 51, min: 0.035229s, max: 0.049374, avg: 0.0408771s)
+z__g_loadSubGraph_read_begpos:		0.152044s	 (count: 51, min: 0.000589s, max: 0.005696, avg: 0.00298125s)
+z__g_loadSubGraph_read_csr:		1.93211s	 (count: 51, min: 0.03214s, max: 0.043656, avg: 0.0378846s)
+z__g_loadSubGraph_realloc_csr:		3.4e-05s	 (count: 51, min: 0s, max: 1e-06, avg: 6.66667e-07s)
+z_w_clear_curwalks:		0.000186s	 (count: 301, min: 0s, max: 7.1e-05, avg: 6.1794e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/uk-2005.w.edge
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		116
+[Timings]
+00_runtime:		4.07092 s
+0_startWalks:		0.035819 s
+1_chooseBlock:		0.000274s	 (count: 316, min: 0s, max: 7e-06, avg: 8.67089e-07s)
+2_findSubGraph:		4.008s	 (count: 316, min: 0s, max: 0.055161, avg: 0.0126835s)
+3_getCurrentWalks:		0.003835s	 (count: 316, min: 0s, max: 0.000386, avg: 1.21361e-05s)
+5_exec_updates:		0.056127s	 (count: 316, min: 0s, max: 0.014647, avg: 0.000177617s)
+6_updateWalkNum:		0.001281s	 (count: 316, min: 1e-06s, max: 8.4e-05, avg: 4.0538e-06s)
+g_loadSubGraph:		4.00775s	 (count: 103, min: 0.001929s, max: 0.055155, avg: 0.0389101s)
+z__g_loadSubGraph_read_begpos:		0.20606s	 (count: 103, min: 0.000185s, max: 0.005907, avg: 0.00200058s)
+z__g_loadSubGraph_read_csr:		3.80046s	 (count: 103, min: 0.001734s, max: 0.051376, avg: 0.0368977s)
+z__g_loadSubGraph_realloc_csr:		6.7e-05s	 (count: 103, min: 0s, max: 1e-06, avg: 6.50485e-07s)
+z_w_clear_curwalks:		0.000172s	 (count: 316, min: 0s, max: 4.3e-05, avg: 5.44304e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/sk-2005
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		108
+[Timings]
+00_runtime:		4.50554 s
+0_startWalks:		0.039393 s
+1_chooseBlock:		0.000256s	 (count: 308, min: 0s, max: 3e-06, avg: 8.31169e-07s)
+2_findSubGraph:		4.39653s	 (count: 308, min: 0s, max: 0.087315, avg: 0.0142745s)
+3_getCurrentWalks:		0.006976s	 (count: 308, min: 0s, max: 0.000391, avg: 2.26494e-05s)
+5_exec_updates:		0.098141s	 (count: 308, min: 0s, max: 0.014387, avg: 0.00031864s)
+6_updateWalkNum:		0.002324s	 (count: 308, min: 1e-06s, max: 8.6e-05, avg: 7.54545e-06s)
+g_loadSubGraph:		4.3963s	 (count: 108, min: 0.032585s, max: 0.087313, avg: 0.0407065s)
+z__g_loadSubGraph_read_begpos:		0.618671s	 (count: 108, min: 0.002091s, max: 0.065087, avg: 0.00572844s)
+z__g_loadSubGraph_read_csr:		3.77635s	 (count: 108, min: 0.022212s, max: 0.044918, avg: 0.0349662s)
+z__g_loadSubGraph_realloc_csr:		7e-05s	 (count: 108, min: 0s, max: 2e-06, avg: 6.48148e-07s)
+z_w_clear_curwalks:		0.00018s	 (count: 308, min: 0s, max: 4.4e-05, avg: 5.84416e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/friendster.w.edge
+-------------------------------------------------------unbias rw V 100
+Random walks:	Start 40000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		5
+[Timings]
+00_runtime:		0.350286 s
+0_startWalks:		0.055781 s
+1_chooseBlock:		0.000138s	 (count: 271, min: 0s, max: 1e-06, avg: 5.09225e-07s)
+2_findSubGraph:		0.178749s	 (count: 271, min: 0s, max: 0.052151, avg: 0.00065959s)
+3_getCurrentWalks:		0.015807s	 (count: 271, min: 0s, max: 0.000212, avg: 5.83284e-05s)
+5_exec_updates:		0.153879s	 (count: 271, min: 1e-06s, max: 0.00213, avg: 0.000567819s)
+6_updateWalkNum:		0.000788s	 (count: 271, min: 1e-06s, max: 3.7e-05, avg: 2.90775e-06s)
+g_loadSubGraph:		0.178655s	 (count: 5, min: 0.005155s, max: 0.052147, avg: 0.035731s)
+z__g_loadSubGraph_read_begpos:		0.023352s	 (count: 5, min: 0.001552s, max: 0.013648, avg: 0.0046704s)
+z__g_loadSubGraph_read_csr:		0.155227s	 (count: 5, min: 0.002758s, max: 0.040371, avg: 0.0310454s)
+z__g_loadSubGraph_realloc_csr:		2e-06s	 (count: 5, min: 0s, max: 1e-06, avg: 4e-07s)
+z_w_clear_curwalks:		0.000192s	 (count: 271, min: 0s, max: 3.1e-05, avg: 7.08487e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	/home/pywang/data/lj.w.edge
+Random walks:	Start 40000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		38
+[Timings]
+00_runtime:		1.89428 s
+0_startWalks:		0.041693 s
+1_chooseBlock:		0.000612s	 (count: 1122, min: 0s, max: 2e-06, avg: 5.45455e-07s)
+2_findSubGraph:		1.50642s	 (count: 1122, min: 0s, max: 0.047932, avg: 0.00134262s)
+3_getCurrentWalks:		0.013894s	 (count: 1122, min: 0s, max: 0.000291, avg: 1.23832e-05s)
+5_exec_updates:		0.347551s	 (count: 1122, min: 0s, max: 0.01877, avg: 0.00030976s)
+6_updateWalkNum:		0.011831s	 (count: 1122, min: 1e-06s, max: 3.8e-05, avg: 1.05446e-05s)
+g_loadSubGraph:		1.50613s	 (count: 38, min: 0.024729s, max: 0.047928, avg: 0.039635s)
+z__g_loadSubGraph_read_begpos:		0.106043s	 (count: 38, min: 0.00114s, max: 0.00552, avg: 0.00279061s)
+z__g_loadSubGraph_read_csr:		1.39953s	 (count: 38, min: 0.023018s, max: 0.042383, avg: 0.0368296s)
+z__g_loadSubGraph_realloc_csr:		4.9e-05s	 (count: 38, min: 0s, max: 2.2e-05, avg: 1.28947e-06s)
+z_w_clear_curwalks:		0.000584s	 (count: 1122, min: 0s, max: 6e-06, avg: 5.20499e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	/home/pywang/data/arabic-2005.w.edge
+Random walks:	Start 40000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		55
+[Timings]
+00_runtime:		2.92147 s
+0_startWalks:		0.059588 s
+1_chooseBlock:		0.000709s	 (count: 1417, min: 0s, max: 1e-06, avg: 5.00353e-07s)
+2_findSubGraph:		2.20123s	 (count: 1417, min: 0s, max: 0.051708, avg: 0.00155344s)
+3_getCurrentWalks:		0.011038s	 (count: 1417, min: 0s, max: 0.000304, avg: 7.7897e-06s)
+5_exec_updates:		0.691501s	 (count: 1417, min: 0s, max: 0.01433, avg: 0.000488004s)
+6_updateWalkNum:		0.012194s	 (count: 1417, min: 1e-06s, max: 2.8e-05, avg: 8.6055e-06s)
+g_loadSubGraph:		2.20079s	 (count: 55, min: 0.033425s, max: 0.051705, avg: 0.0400144s)
+z__g_loadSubGraph_read_begpos:		0.178614s	 (count: 55, min: 0.00073s, max: 0.005622, avg: 0.00324753s)
+z__g_loadSubGraph_read_csr:		2.0215s	 (count: 55, min: 0.031924s, max: 0.046692, avg: 0.0367545s)
+z__g_loadSubGraph_realloc_csr:		3.5e-05s	 (count: 55, min: 0s, max: 2e-06, avg: 6.36364e-07s)
+z_w_clear_curwalks:		0.000682s	 (count: 1417, min: 0s, max: 2e-06, avg: 4.81299e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	/home/pywang/data/uk-2005.w.edge
+Random walks:	Start 40000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		116
+[Timings]
+00_runtime:		6.14386 s
+0_startWalks:		0.059482 s
+1_chooseBlock:		0.002149s	 (count: 3490, min: 0s, max: 4e-06, avg: 6.15759e-07s)
+2_findSubGraph:		4.42592s	 (count: 3490, min: 0s, max: 0.050059, avg: 0.00126817s)
+3_getCurrentWalks:		0.015956s	 (count: 3490, min: 0s, max: 0.000326, avg: 4.57192e-06s)
+5_exec_updates:		1.65236s	 (count: 3490, min: 0s, max: 0.028192, avg: 0.000473456s)
+6_updateWalkNum:		0.036897s	 (count: 3490, min: 1e-06s, max: 7.1e-05, avg: 1.05722e-05s)
+g_loadSubGraph:		4.42477s	 (count: 116, min: 0.002146s, max: 0.050056, avg: 0.0381446s)
+z__g_loadSubGraph_read_begpos:		0.225158s	 (count: 116, min: 1.9e-05s, max: 0.008049, avg: 0.00194102s)
+z__g_loadSubGraph_read_csr:		4.19809s	 (count: 116, min: 0.001949s, max: 0.043212, avg: 0.0361905s)
+z__g_loadSubGraph_realloc_csr:		8.5e-05s	 (count: 116, min: 0s, max: 2e-06, avg: 7.32759e-07s)
+z_w_clear_curwalks:		0.00128s	 (count: 3490, min: 0s, max: 6e-06, avg: 3.66762e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	/home/pywang/data/sk-2005
+Random walks:	Start 40000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		108
+[Timings]
+00_runtime:		6.18782 s
+0_startWalks:		0.07043 s
+1_chooseBlock:		0.004042s	 (count: 6022, min: 0s, max: 2e-06, avg: 6.71206e-07s)
+2_findSubGraph:		4.44995s	 (count: 6022, min: 0s, max: 0.080925, avg: 0.000738949s)
+3_getCurrentWalks:		0.051985s	 (count: 6022, min: 0s, max: 0.000211, avg: 8.63251e-06s)
+5_exec_updates:		1.42563s	 (count: 6022, min: 1e-06s, max: 0.028396, avg: 0.000236738s)
+6_updateWalkNum:		0.102905s	 (count: 6022, min: 1e-06s, max: 0.004191, avg: 1.70882e-05s)
+g_loadSubGraph:		4.44834s	 (count: 108, min: 0.034874s, max: 0.080923, avg: 0.0411883s)
+z__g_loadSubGraph_read_begpos:		0.541265s	 (count: 108, min: 0.00155s, max: 0.058389, avg: 0.00501171s)
+z__g_loadSubGraph_read_csr:		3.90567s	 (count: 108, min: 0.022513s, max: 0.040379, avg: 0.0361636s)
+z__g_loadSubGraph_realloc_csr:		5e-05s	 (count: 108, min: 0s, max: 1e-06, avg: 4.62963e-07s)
+z_w_clear_curwalks:		0.003129s	 (count: 6022, min: 0s, max: 1.7e-05, avg: 5.19595e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	/home/pywang/data/friendster.w.edge

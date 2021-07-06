@@ -1,0 +1,138 @@
+----------------------biased_walk  -------------------
+------------web-Google
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+---------------using degree as weight----------------
+Graph has 5105039 edges and 916428 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 916428
+Maximum Threads Per Kernel: 916480
+perDeviceNumSamples 916428 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.0572922 secs
+InversionTime: 0.0191457, LoadBalancingTime: 0.0100751, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.0268724
+totalSampledVertices 61083966
+------------lj
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+---------------using degree as weight----------------
+Graph has 68993773 edges and 4847571 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 4847571
+Maximum Threads Per Kernel: 4847616
+perDeviceNumSamples 4847571 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.352047 secs
+InversionTime: 0.0881472, LoadBalancingTime: 0.0211496, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.23968
+totalSampledVertices 426926698
+------------orkut
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+---------------using degree as weight----------------
+Graph has 117185083 edges and 3072627 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 3072627
+Maximum Threads Per Kernel: 3072768
+perDeviceNumSamples 3072627 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.048696 secs
+InversionTime: 0.0149949, LoadBalancingTime: 0.0083499, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.0221004
+totalSampledVertices 35686028
+----------------------ppr biased -------------------
+------------web-Google
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+---------------using degree as weight----------------
+Graph has 5105039 edges and 916428 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 916428
+Maximum Threads Per Kernel: 916480
+perDeviceNumSamples 916428 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.0483971 secs
+InversionTime: 0.0168569, LoadBalancingTime: 0.00990057, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.0203514
+totalSampledVertices 39375789
+------------lj
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+---------------using degree as weight----------------
+Graph has 68993773 edges and 4847571 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 4847571
+Maximum Threads Per Kernel: 4847616
+perDeviceNumSamples 4847571 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.280745 secs
+InversionTime: 0.0681062, LoadBalancingTime: 0.0199435, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.189196
+totalSampledVertices 269629363
+------------orkut
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+---------------using degree as weight----------------
+Graph has 117185083 edges and 3072627 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 3072627
+Maximum Threads Per Kernel: 3072768
+perDeviceNumSamples 3072627 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.048537 secs
+InversionTime: 0.0155501, LoadBalancingTime: 0.00822783, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.0212781
+totalSampledVertices 32786805
+----------------------node2vec -------------------
+------------web-Google
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+---------------using degree as weight----------------
+Graph has 5105039 edges and 916428 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 916428
+Maximum Threads Per Kernel: 916480
+perDeviceNumSamples 916428 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.0626478 secs
+InversionTime: 0.0160286, LoadBalancingTime: 0.00882435, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.0367708
+totalSampledVertices 26260446
+------------lj
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+---------------using degree as weight----------------
+Graph has 68993773 edges and 4847571 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 4847571
+Maximum Threads Per Kernel: 4847616
+perDeviceNumSamples 4847571 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.599729 secs
+InversionTime: 0.0479424, LoadBalancingTime: 0.0187042, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.531532
+totalSampledVertices 191585508
+------------orkut
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+---------------using degree as weight----------------
+Graph has 117185083 edges and 3072627 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 3072627
+Maximum Threads Per Kernel: 3072768
+perDeviceNumSamples 3072627 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.0447478 secs
+InversionTime: 0.00804782, LoadBalancingTime: 0.00468755, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.030622
+totalSampledVertices 17274935
