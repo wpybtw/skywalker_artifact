@@ -12,7 +12,7 @@ Edit Makefile and run
 make
 ```
 
-The  
+The   
 
 ## Running
 Please run scripts in ./scripts for testing.
