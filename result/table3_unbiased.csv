@@ -1,0 +1,529 @@
+-------------------------------------------------------Skywalker unbias rw 100
+web-Google.w.gr
+
+0.58	
+1862.33	
+lj.w.gr
+
+1.00	
+1610.44	
+orkut.w.gr
+
+0.28	
+875.52	
+arabic-2005.w.gr
+
+0.24	
+2388.82	
+uk-2005.w.gr
+
+0.39	
+5261.78	
+sk-2005.w.gr
+
+0.35	
+1842.80	
+friendster.w.gr
+
+0.19	
+418.10	
+-------------------------------------------------------Skywalker unbias ppr 100
+web-Google.w.gr
+
+0.24	
+566.55	
+lj.w.gr
+
+0.29	
+659.44	
+orkut.w.gr
+
+0.24	
+564.82	
+arabic-2005.w.gr
+
+0.14	
+813.44	
+uk-2005.w.gr
+
+0.16	
+1053.83	
+sk-2005.w.gr
+
+0.16	
+814.64	
+friendster.w.gr
+
+0.15	
+271.49	
+-------------------------------------------------------Skywalker unbias node2vec
+web-Google.w.gr
+
+1.10	
+2952.04	
+lj.w.gr
+
+1.97	
+1970.72	
+orkut.w.gr
+
+0.44	
+9012.53	
+arabic-2005.w.gr
+
+0.11	
+8799.07	
+uk-2005.w.gr
+
+1.05	
+3405.96	
+sk-2005.w.gr
+
+0.06	
+597.40	
+friendster.w.gr
+
+0.04	
+339.83	
+-------------------------------------------------------Skywalker unbias sage 40k
+web-Google.w.gr
+
+ 
+0.57	
+17459.46	
+lj.w.gr
+
+ 
+0.85	
+12542.03	
+orkut.w.gr
+
+ 
+1.05	
+10213.26	
+arabic-2005.w.gr
+
+ 
+0.40	
+23869.08	
+uk-2005.w.gr
+
+ 
+0.40	
+25116.79	
+sk-2005.w.gr
+
+ 
+0.47	
+17690.13	
+friendster.w.gr
+
+ 
+0.43	
+22924.03	
+----------------------KnightKing unbiased 40k degree-------------------
+web-Google
+step(0), active(0), time(0.017)
+total time 0.048952s
+lj
+step(0), active(0), time(0.015)
+total time 0.032432s
+orkut
+step(0), active(0), time(0.008)
+total time 0.042176s
+arabic-2005
+step(0), active(0), time(0.002)
+total time 0.037212s
+uk-2005
+sk-2005
+step(0), active(0), time(0.007)
+total time 0.030225s
+friendster
+step(0), active(0), time(0.016)
+total time 0.039138s
+----------------------KnightKing unbiased node2vec-------------------
+web-Google
+unweighted
+step(0), active(0), time(1.055)
+total time 1.096559s
+lj
+unweighted
+step(0), active(0), time(1.934)
+total time 2.024571s
+orkut
+unweighted
+step(0), active(0), time(0.561)
+total time 0.724571s
+arabic-2005
+unweighted
+step(0), active(0), time(1.012)
+total time 1.292594s
+uk-2005
+unweighted
+sk-2005
+unweighted
+step(0), active(0), time(0.809)
+total time 1.367733s
+friendster
+unweighted
+step(0), active(0), time(0.141)
+total time 1.350678s
+----------------------KnightKing ppr unbiased ------------------
+web-Google
+step(0), active(0), time(0.004)
+total time 0.036629s
+lj
+step(0), active(0), time(0.013)
+total time 0.052029s
+orkut
+step(0), active(0), time(0.007)
+total time 0.026808s
+arabic-2005
+step(0), active(0), time(0.015)
+total time 0.033165s
+uk-2005
+sk-2005
+step(0), active(0), time(0.016)
+total time 0.052653s
+friendster
+step(0), active(0), time(0.018)
+total time 0.052499s
+----------------------nextdoor node2vec -------------------
+------------web-Google
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 5105039 edges and 916428 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 40000
+Maximum Threads Per Kernel: 40192
+perDeviceNumSamples 40000 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.026648 secs
+InversionTime: 0.0145259, LoadBalancingTime: 0.00730515, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.00382757
+totalSampledVertices 1161040
+------------lj
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 68993773 edges and 4847571 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 40000
+Maximum Threads Per Kernel: 40192
+perDeviceNumSamples 40000 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.034044 secs
+InversionTime: 0.0187376, LoadBalancingTime: 0.00707412, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.00716972
+totalSampledVertices 1627444
+------------orkut
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 117185083 edges and 3072627 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 40000
+Maximum Threads Per Kernel: 40192
+perDeviceNumSamples 40000 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.00685906 secs
+InversionTime: 0.00265288, LoadBalancingTime: 0.00203323, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.00120807
+totalSampledVertices 292399
+------------arabic-2005
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 639999458 edges and 22744077 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 40000
+Maximum Threads Per Kernel: 40192
+perDeviceNumSamples 40000 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.018301 secs
+InversionTime: 0.00748253, LoadBalancingTime: 0.00721979, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.00260425
+totalSampledVertices 602321
+------------uk-2005
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 936364282 edges and 39459923 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 40000
+Maximum Threads Per Kernel: 40192
+perDeviceNumSamples 40000 maxNeighborsToSample 1
+Transit Parallel: End to end time 0.034023 secs
+InversionTime: 0.0228627, LoadBalancingTime: 0.00704241, GridKernelTime: 0, ThreadBlockKernelTime: 0, SubWarpKernelTime: 0, IdentityKernelTime: 0.00309396
+totalSampledVertices 2124048
+------------sk-2005
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 1949412601 edges and 50636151 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 40000
+Maximum Threads Per Kernel: 40192
+Cuda Error: out of memory 383
+------------friendster
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 1806067135 edges and 124836180 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 100
+Maximum Neighbors Sampled at each step: 1
+Number of Samples: 40000
+Maximum Threads Per Kernel: 40192
+Cuda Error: out of memory 383
+----------------------nextdoor kh sample-------------------
+------------web-Google
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 5105039 edges and 916428 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 260
+Maximum Neighbors Sampled at each step: 10
+Number of Samples: 40000
+Maximum Threads Per Kernel: 401408
+perDeviceNumSamples 40000 maxNeighborsToSample 10
+Transit Parallel: End to end time 0.00180697 secs
+InversionTime: 0.000174046, LoadBalancingTime: 0.000144005, GridKernelTime: 0.00014782, ThreadBlockKernelTime: 0.000233173, SubWarpKernelTime: 0, IdentityKernelTime: 1.90735e-06
+totalSampledVertices 7603630
+------------lj
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 68993773 edges and 4847571 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 260
+Maximum Neighbors Sampled at each step: 10
+Number of Samples: 40000
+Maximum Threads Per Kernel: 401408
+perDeviceNumSamples 40000 maxNeighborsToSample 10
+Transit Parallel: End to end time 0.00224304 secs
+InversionTime: 0.000216007, LoadBalancingTime: 0.000244856, GridKernelTime: 0.000106096, ThreadBlockKernelTime: 0.000461817, SubWarpKernelTime: 0, IdentityKernelTime: 1.19209e-06
+totalSampledVertices 9773620
+------------orkut
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 117185083 edges and 3072627 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 260
+Maximum Neighbors Sampled at each step: 10
+Number of Samples: 40000
+Maximum Threads Per Kernel: 401408
+perDeviceNumSamples 40000 maxNeighborsToSample 10
+Transit Parallel: End to end time 0.00209689 secs
+InversionTime: 0.000205994, LoadBalancingTime: 0.000154972, GridKernelTime: 5.00679e-05, ThreadBlockKernelTime: 0.000521898, SubWarpKernelTime: 0, IdentityKernelTime: 1.90735e-06
+totalSampledVertices 10074710
+------------arabic-2005
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 639999458 edges and 22744077 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 260
+Maximum Neighbors Sampled at each step: 10
+Number of Samples: 40000
+Maximum Threads Per Kernel: 401408
+perDeviceNumSamples 40000 maxNeighborsToSample 10
+Transit Parallel: End to end time 0.0017581 secs
+InversionTime: 0.000216007, LoadBalancingTime: 0.000145912, GridKernelTime: 0.000206947, ThreadBlockKernelTime: 9.60827e-05, SubWarpKernelTime: 0, IdentityKernelTime: 9.53674e-07
+totalSampledVertices 7393995
+------------uk-2005
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 936364282 edges and 39459923 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 260
+Maximum Neighbors Sampled at each step: 10
+Number of Samples: 40000
+Maximum Threads Per Kernel: 401408
+perDeviceNumSamples 40000 maxNeighborsToSample 10
+Transit Parallel: End to end time 0.00170016 secs
+InversionTime: 0.000211, LoadBalancingTime: 0.000146151, GridKernelTime: 0.000236034, ThreadBlockKernelTime: 9.799e-05, SubWarpKernelTime: 0, IdentityKernelTime: 9.53674e-07
+totalSampledVertices 8796830
+------------sk-2005
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 1949412601 edges and 50636151 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 260
+Maximum Neighbors Sampled at each step: 10
+Number of Samples: 40000
+Maximum Threads Per Kernel: 401408
+Cuda Error: out of memory 383
+------------friendster
+Graph Binary Loaded
+Vertices and Edges loaded
+Edges sorted
+Graph has 1806067135 edges and 124836180 vertices 
+Using GPUs: [0,]
+Final Size of each sample: 260
+Maximum Neighbors Sampled at each step: 10
+Number of Samples: 40000
+Maximum Threads Per Kernel: 401408
+Cuda Error: out of memory 383
+-------------------------------------------------------GraphWalker unbias rw 40000 100
+Random walks:	Start 40000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		5
+[Timings]
+00_runtime:		0.302505 s
+0_startWalks:		0.045869 s
+1_chooseBlock:		0.000107s	 (count: 265, min: 0s, max: 1e-06, avg: 4.03774e-07s)
+2_findSubGraph:		0.111029s	 (count: 265, min: 0s, max: 0.031168, avg: 0.000418977s)
+3_getCurrentWalks:		0.015874s	 (count: 265, min: 0s, max: 0.00022, avg: 5.99019e-05s)
+5_exec_updates:		0.173742s	 (count: 265, min: 0s, max: 0.013959, avg: 0.00065563s)
+6_updateWalkNum:		0.000829s	 (count: 265, min: 1e-06s, max: 4e-05, avg: 3.1283e-06s)
+g_loadSubGraph:		0.11095s	 (count: 5, min: 0.003348s, max: 0.031166, avg: 0.02219s)
+z__g_loadSubGraph_read_begpos:		0.015465s	 (count: 5, min: 0.001503s, max: 0.007724, avg: 0.003093s)
+z__g_loadSubGraph_read_csr:		0.09541s	 (count: 5, min: 0.001726s, max: 0.023688, avg: 0.019082s)
+z__g_loadSubGraph_realloc_csr:		4e-06s	 (count: 5, min: 0s, max: 1e-06, avg: 8e-07s)
+z_w_clear_curwalks:		0.000177s	 (count: 265, min: 0s, max: 3.6e-05, avg: 6.67925e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	/home/pywang/data/lj.w.edge
+Random walks:	Start 40000 walks randomly ...
+Random walks:	Start 40000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		55
+[Timings]
+00_runtime:		3.08557 s
+0_startWalks:		0.050225 s
+1_chooseBlock:		0.000958s	 (count: 1480, min: 0s, max: 2e-06, avg: 6.47297e-07s)
+2_findSubGraph:		2.51993s	 (count: 1480, min: 0s, max: 0.2143, avg: 0.00170266s)
+3_getCurrentWalks:		0.011744s	 (count: 1480, min: 0s, max: 0.000416, avg: 7.93514e-06s)
+5_exec_updates:		0.535429s	 (count: 1480, min: 1e-06s, max: 0.030293, avg: 0.000361776s)
+6_updateWalkNum:		0.010894s	 (count: 1480, min: 1e-06s, max: 3.2e-05, avg: 7.36081e-06s)
+g_loadSubGraph:		2.51933s	 (count: 53, min: 0.029776s, max: 0.214297, avg: 0.0475346s)
+z__g_loadSubGraph_read_begpos:		0.255621s	 (count: 53, min: 0.000769s, max: 0.069203, avg: 0.00482304s)
+z__g_loadSubGraph_read_csr:		2.26294s	 (count: 53, min: 0.02621s, max: 0.14507, avg: 0.042697s)
+z__g_loadSubGraph_realloc_csr:		3.5e-05s	 (count: 53, min: 0s, max: 2e-06, avg: 6.60377e-07s)
+z_w_clear_curwalks:		0.000787s	 (count: 1480, min: 0s, max: 4e-06, avg: 5.31757e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	/home/pywang/data/uk-2005.w.edge
+Random walks:	Start 40000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		108
+[Timings]
+00_runtime:		36.3176 s
+0_startWalks:		0.081463 s
+1_chooseBlock:		0.004029s	 (count: 5961, min: 0s, max: 8e-06, avg: 6.75893e-07s)
+2_findSubGraph:		25.5477s	 (count: 5961, min: 0s, max: 1.41758, avg: 0.00428581s)
+3_getCurrentWalks:		0.053052s	 (count: 5961, min: 0s, max: 0.00033, avg: 8.89985e-06s)
+5_exec_updates:		10.5368s	 (count: 5961, min: 0s, max: 0.053407, avg: 0.00176762s)
+6_updateWalkNum:		0.099793s	 (count: 5961, min: 1e-06s, max: 0.000103, avg: 1.6741e-05s)
+g_loadSubGraph:		25.5458s	 (count: 108, min: 0.101341s, max: 1.41758, avg: 0.236535s)
+z__g_loadSubGraph_read_begpos:		6.39499s	 (count: 108, min: 0.002399s, max: 1.264, avg: 0.0592129s)
+z__g_loadSubGraph_read_csr:		19.1394s	 (count: 108, min: 0.098798s, max: 1.06266, avg: 0.177216s)
+z__g_loadSubGraph_realloc_csr:		0.000151s	 (count: 108, min: 0s, max: 2e-06, avg: 1.39815e-06s)
+z_w_clear_curwalks:		0.003112s	 (count: 5961, min: 0s, max: 2.4e-05, avg: 5.2206e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	/home/pywang/data/friendster.w.edge
+-------------------------------------------------------GraphWalker unbias ppr 40000 100
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		5
+[Timings]
+00_runtime:		0.179573 s
+0_startWalks:		0.015995 s
+1_chooseBlock:		4.6e-05s	 (count: 108, min: 0s, max: 3e-06, avg: 4.25926e-07s)
+2_findSubGraph:		0.166107s	 (count: 108, min: 0s, max: 0.04622, avg: 0.00153803s)
+3_getCurrentWalks:		0.001379s	 (count: 108, min: 0s, max: 0.00035, avg: 1.27685e-05s)
+5_exec_updates:		0.011364s	 (count: 108, min: 0s, max: 0.002664, avg: 0.000105222s)
+6_updateWalkNum:		0.000298s	 (count: 108, min: 1e-06s, max: 4e-05, avg: 2.75926e-06s)
+g_loadSubGraph:		0.16607s	 (count: 5, min: 0.005325s, max: 0.046219, avg: 0.033214s)
+z__g_loadSubGraph_read_begpos:		0.020426s	 (count: 5, min: 0.001479s, max: 0.010775, avg: 0.0040852s)
+z__g_loadSubGraph_read_csr:		0.145578s	 (count: 5, min: 0.002853s, max: 0.037035, avg: 0.0291156s)
+z__g_loadSubGraph_realloc_csr:		4e-06s	 (count: 5, min: 0s, max: 1e-06, avg: 8e-07s)
+z_w_clear_curwalks:		8.1e-05s	 (count: 108, min: 0s, max: 3.5e-05, avg: 7.5e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/lj.w.edge
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		38
+[Timings]
+00_runtime:		1.55703 s
+0_startWalks:		0.042944 s
+1_chooseBlock:		0.000115s	 (count: 196, min: 0s, max: 3e-06, avg: 5.86735e-07s)
+2_findSubGraph:		1.53413s	 (count: 196, min: 0s, max: 0.047575, avg: 0.00782719s)
+3_getCurrentWalks:		0.002442s	 (count: 196, min: 0s, max: 0.000358, avg: 1.24592e-05s)
+5_exec_updates:		0.018827s	 (count: 196, min: 0s, max: 0.007104, avg: 9.60561e-05s)
+6_updateWalkNum:		0.000788s	 (count: 196, min: 1e-06s, max: 5.9e-05, avg: 4.02041e-06s)
+g_loadSubGraph:		1.53402s	 (count: 38, min: 0.027486s, max: 0.047575, avg: 0.0403689s)
+z__g_loadSubGraph_read_begpos:		0.104518s	 (count: 38, min: 0.001092s, max: 0.004542, avg: 0.00275047s)
+z__g_loadSubGraph_read_csr:		1.42909s	 (count: 38, min: 0.025564s, max: 0.043667, avg: 0.0376077s)
+z__g_loadSubGraph_realloc_csr:		2e-05s	 (count: 38, min: 0s, max: 1e-06, avg: 5.26316e-07s)
+z_w_clear_curwalks:		0.000117s	 (count: 196, min: 0s, max: 4e-05, avg: 5.96939e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/arabic-2005.w.edge
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		55
+[Timings]
+00_runtime:		2.31228 s
+0_startWalks:		0.015614 s
+1_chooseBlock:		0.000155s	 (count: 293, min: 0s, max: 2e-06, avg: 5.2901e-07s)
+2_findSubGraph:		2.27459s	 (count: 293, min: 0s, max: 0.050495, avg: 0.0077631s)
+3_getCurrentWalks:		0.007178s	 (count: 293, min: 0s, max: 0.00035, avg: 2.44983e-05s)
+5_exec_updates:		0.028018s	 (count: 293, min: 0s, max: 0.007412, avg: 9.56246e-05s)
+6_updateWalkNum:		0.001235s	 (count: 293, min: 1e-06s, max: 5.7e-05, avg: 4.21502e-06s)
+g_loadSubGraph:		2.27445s	 (count: 51, min: 0.036823s, max: 0.050493, avg: 0.0445971s)
+z__g_loadSubGraph_read_begpos:		0.187109s	 (count: 51, min: 0.000773s, max: 0.005253, avg: 0.0036688s)
+z__g_loadSubGraph_read_csr:		2.08678s	 (count: 51, min: 0.033383s, max: 0.046323, avg: 0.0409173s)
+z__g_loadSubGraph_realloc_csr:		2.8e-05s	 (count: 51, min: 0s, max: 1e-06, avg: 5.4902e-07s)
+z_w_clear_curwalks:		0.000149s	 (count: 293, min: 0s, max: 3.5e-05, avg: 5.08532e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/uk-2005.w.edge
+
+ === REPORT FOR multi-source-personalizedpagerank() ===
+[Numeric]
+nblocks:		108
+[Timings]
+00_runtime:		5.26714 s
+0_startWalks:		0.016847 s
+1_chooseBlock:		0.000284s	 (count: 368, min: 0s, max: 3e-06, avg: 7.71739e-07s)
+2_findSubGraph:		5.14855s	 (count: 368, min: 0s, max: 0.092072, avg: 0.0139906s)
+3_getCurrentWalks:		0.005882s	 (count: 368, min: 0s, max: 0.000369, avg: 1.59837e-05s)
+5_exec_updates:		0.108159s	 (count: 368, min: 0s, max: 0.024063, avg: 0.00029391s)
+6_updateWalkNum:		0.002787s	 (count: 368, min: 1e-06s, max: 9.5e-05, avg: 7.57337e-06s)
+g_loadSubGraph:		5.14829s	 (count: 108, min: 0.037304s, max: 0.092071, avg: 0.0476694s)
+z__g_loadSubGraph_read_begpos:		0.631171s	 (count: 108, min: 0.001601s, max: 0.063451, avg: 0.00584418s)
+z__g_loadSubGraph_read_csr:		4.5158s	 (count: 108, min: 0.028607s, max: 0.05686, avg: 0.041813s)
+z__g_loadSubGraph_realloc_csr:		7.3e-05s	 (count: 108, min: 0s, max: 1e-06, avg: 6.75926e-07s)
+z_w_clear_curwalks:		0.000217s	 (count: 368, min: 0s, max: 4.1e-05, avg: 5.89674e-07s)
+[Other]
+app:	multi-source-personalizedpagerank
+engine:	default
+file:	/home/pywang/data/friendster.w.edge

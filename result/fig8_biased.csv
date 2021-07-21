@@ -1,0 +1,185 @@
+-------------------------------------------------------Skywalker offline rw 100  --n 40000 
+web-Google.w.gr
+3.89	
+1.71	
+661.51	
+lj.w.gr
+40.65	
+1.94	
+836.90	
+orkut.w.gr
+65.68	
+0.39	
+640.50	
+arabic-2005.w.gr
+627.27	
+0.47	
+1315.66	
+uk-2005.w.gr
+1843.60	
+10.28	
+198.96	
+sk-2005.w.gr
+8154.21	
+7.92	
+74.02	
+friendster.w.gr
+28117.59	
+3.48	
+22.70	
+-------------------------------------------------------Skywalker offline ppr 0.15  --n 40000 
+web-Google.w.gr
+3.90	
+1.72	
+655.74	
+lj.w.gr
+40.72	
+1.94	
+829.84	
+orkut.w.gr
+67.68	
+0.40	
+629.06	
+arabic-2005.w.gr
+647.04	
+0.48	
+1296.06	
+uk-2005.w.gr
+1834.82	
+10.26	
+199.60	
+sk-2005.w.gr
+8370.45	
+21.32	
+27.40	
+friendster.w.gr
+27642.50	
+3.49	
+22.71	
+-------------------------------------------------------Skywalker node2vec  
+web-Google.w.gr
+lj.w.gr
+orkut.w.gr
+arabic-2005.w.gr
+uk-2005.w.gr
+sk-2005.w.gr
+friendster.w.gr
+-------------------------------------------------------Skywalker offline sp 20 20 --n 40000 
+web-Google.w.gr
+
+ 3.89	
+0.62	
+5620.47	
+lj.w.gr
+
+ 40.70	
+3.86	
+1727.22	
+orkut.w.gr
+
+ 67.63	
+5.61	
+1182.46	
+arabic-2005.w.gr
+
+ 627.25	
+0.62	
+6469.80	
+uk-2005.w.gr
+
+ 1896.92	
+4.19	
+1511.82	
+sk-2005.w.gr
+
+ 8083.69	
+49.46	
+98.84	
+friendster.w.gr
+
+ 27867.51	
+19.14	
+79.73	
+-------------------Runtime of C-SAW  need to be scale by 10 due to 4k as batch size-------------------
+----------------------C-SAW  biased walk 4k 64-------------------
+5736,SamplingTime:0.001831
+wg,0.001831,0.001831
+4316,SamplingTime:0.002499
+wg,0.002499,0.002499
+7726,SamplingTime:0.003606
+wg,0.003606,0.003606
+9495,SamplingTime:0.002378
+wg,0.002378,0.002378
+out of memory in gpu_graph.cuh at line 40
+out of memory in gpu_graph.cuh at line 38
+out of memory in gpu_graph.cuh at line 38
+----------------------C-SAW  sampling biased 4k 20 2 64-------------------
+944540,SamplingTime:0.075990
+wg,0.075990,0.075990
+451620,SamplingTime:0.106907
+wg,0.106907,0.106907
+1473440,SamplingTime:0.472060
+wg,0.472060,0.472060
+1487100,SamplingTime:0.515418
+wg,0.515418,0.515418
+out of memory in gpu_graph.cuh at line 40
+out of memory in gpu_graph.cuh at line 38
+out of memory in gpu_graph.cuh at line 38
+----------------------KnightKing biased_walk  -------------------
+0: init alias tables in 0.050342 seconds
+step(0), active(0), time(0.014)
+0: init alias tables in 0.243625 seconds
+step(0), active(0), time(0.031)
+0: init alias tables in 0.300312 seconds
+step(0), active(0), time(0.011)
+0: init alias tables in 1.863939 seconds
+step(0), active(0), time(0.005)
+0: init alias tables in 6.647188 seconds
+step(0), active(0), time(0.028)
+0: init alias tables in 9.416321 seconds
+step(0), active(0), time(0.017)
+----------------------KnightKing biased node2vec-------------------
+weighted
+0: init alias tables in 0.044452 seconds
+step(0), active(0), time(2.082)
+total time 2.177946s
+weighted
+0: init alias tables in 0.180372 seconds
+step(0), active(0), time(1.924)
+total time 2.336751s
+weighted
+0: init alias tables in 0.226077 seconds
+step(0), active(0), time(0.137)
+total time 0.575504s
+weighted
+0: init alias tables in 1.366933 seconds
+step(0), active(0), time(1.183)
+total time 3.920416s
+weighted
+weighted
+0: init alias tables in 3.948410 seconds
+step(0), active(0), time(0.988)
+total time 8.587806s
+weighted
+0: init alias tables in 9.262454 seconds
+step(0), active(0), time(0.431)
+total time 14.862641s
+----------------------KnightKing ppr biased -------------------
+0: init alias tables in 0.064118 seconds
+step(0), active(0), time(0.003)
+total time 0.082848s
+0: init alias tables in 0.192515 seconds
+step(0), active(0), time(0.004)
+total time 0.297727s
+0: init alias tables in 0.234434 seconds
+step(0), active(0), time(0.003)
+total time 0.410099s
+0: init alias tables in 1.506796 seconds
+step(0), active(0), time(0.001)
+total time 2.378006s
+0: init alias tables in 3.840291 seconds
+step(0), active(0), time(0.006)
+total time 5.950727s
+0: init alias tables in 6.285024 seconds
+step(0), active(0), time(0.020)
+total time 8.459801s

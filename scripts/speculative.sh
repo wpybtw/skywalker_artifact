@@ -22,42 +22,43 @@ SG="--ngpu=1 --s"
 RW="--rw=1 --k 1 --d 100 "
 SP="--rw=0 --k 20 --d 2 "
 BATCH="--n 40000"
+OUT="./result/spec.csv"
 
 
-echo "-------------------------------------------------------main_nospec sp 100" >> ./result/spec.csv
+echo "-------------------------------------------------------main_nospec sp 100" >> $OUT
 for idx in $(seq 1 ${#DATA[*]}) 
 do
     for i in $(seq 1  ${ITR})
     do
-        ./bin/main_degree_nospec -bias=1 --ol=1 ${SG} ${SP} --input ~/data/${DATA[idx-1]}${GR} --hd=${HD[idx-1]} ${BATCH} >> ./result/spec.csv
+        ./bin/main_degree_nospec -bias=1 --ol=1 ${SG} ${SP} --input ~/data/${DATA[idx-1]}${GR} --hd=${HD[idx-1]} ${BATCH} >> $OUT
     done
 done
 
-echo "-------------------------------------------------------main_spec sp 100" >> ./result/spec.csv
+echo "-------------------------------------------------------main_spec sp 100" >> $OUT
 for idx in $(seq 1 ${#DATA[*]}) 
 do
     for i in $(seq 1  ${ITR})
     do
-        ./bin/main_degree_spec -bias=1 --ol=1 ${SG} ${SP} --input ~/data/${DATA[idx-1]}${GR} --hd=${HD[idx-1]} ${BATCH} >> ./result/spec.csv
+        ./bin/main_degree_spec -bias=1 --ol=1 ${SG} ${SP} --input ~/data/${DATA[idx-1]}${GR} --hd=${HD[idx-1]} ${BATCH} >> $OUT
     done
 done
 
 
 
-echo "-------------------------------------------------------main_nospec rw 100" >> ./result/spec.csv
+echo "-------------------------------------------------------main_nospec rw 100" >> $OUT
 for idx in $(seq 1 ${#DATA[*]}) 
 do
     for i in $(seq 1  ${ITR})
     do
-        ./bin/main_degree_nospec -bias=1 --ol=1 ${SG} ${RW} --input ~/data/${DATA[idx-1]}${GR} --hd=${HD[idx-1]} ${BATCH} >> ./result/spec.csv
+        ./bin/main_degree_nospec -bias=1 --ol=1 ${SG} ${RW} --input ~/data/${DATA[idx-1]}${GR} --hd=${HD[idx-1]} ${BATCH} >> $OUT
     done
 done
-echo "-------------------------------------------------------main_spec rw 100" >> ./result/spec.csv
+echo "-------------------------------------------------------main_spec rw 100" >> $OUT
 for idx in $(seq 1 ${#DATA[*]}) 
 do
     for i in $(seq 1  ${ITR})
     do
-        ./bin/main_degree_spec -bias=1 --ol=1 ${SG} ${RW} --input ~/data/${DATA[idx-1]}${GR} --hd=${HD[idx-1]} ${BATCH} >> ./result/spec.csv
+        ./bin/main_degree_spec -bias=1 --ol=1 ${SG} ${RW} --input ~/data/${DATA[idx-1]}${GR} --hd=${HD[idx-1]} ${BATCH} >> $OUT
     done
 done
 
